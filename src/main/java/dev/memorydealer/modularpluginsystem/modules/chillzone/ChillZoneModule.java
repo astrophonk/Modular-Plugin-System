@@ -74,11 +74,6 @@ public class ChillZoneModule implements Module {
     }
 
     @Override
-    public String getName() {
-        return "ChillZone";
-    }
-
-    @Override
     public Map<String, CommandExecutor> getCommands() {
         Map<String, CommandExecutor> commands = new HashMap<>();
         commands.put("chillzone", new ChillZoneCommand());

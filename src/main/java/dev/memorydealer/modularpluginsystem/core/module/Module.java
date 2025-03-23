@@ -10,7 +10,9 @@ public interface Module {
     void stop();
     boolean isEnabled();
     void setEnabled(boolean enabled);
-    String getName();
+    default String getName() {
+        return getClass().getSimpleName();
+    }
 
     default Map<String, CommandExecutor> getCommands() {
         return Collections.emptyMap(); // No commands by default
