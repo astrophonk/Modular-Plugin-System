@@ -1,4 +1,4 @@
-package dev.memorydealer.core.managers;
+package dev.memorydealer.modularpluginsystem.core.managers;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.*;

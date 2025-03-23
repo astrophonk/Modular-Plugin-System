@@ -1,8 +1,9 @@
-package dev.memorydealer.core.commands;
+package dev.memorydealer.modularpluginsystem.core.commands;
 
-import dev.memorydealer.core.ModuleConfig;
-import dev.memorydealer.core.module.Module;
-import dev.memorydealer.core.GUI.ModuleMenu;
+import dev.memorydealer.modularpluginsystem.ModularPluginSystem;
+import dev.memorydealer.modularpluginsystem.core.ModuleConfig;
+import dev.memorydealer.modularpluginsystem.core.module.Module;
+import dev.memorydealer.modularpluginsystem.core.GUI.ModuleMenu;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -25,7 +26,7 @@ public class ModuleMenuCommand implements CommandExecutor {
             return true;
         }
 
-        if (!player.hasPermission("dev.memorydealer.modules")) {
+        if (!player.hasPermission(ModularPluginSystem.class.getPackage().getName())) {
             player.sendMessage("§cNo permission.");
             return true;
         }

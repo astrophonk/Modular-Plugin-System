@@ -1,8 +1,9 @@
-package dev.memorydealer.core;
+package dev.memorydealer.modularpluginsystem.core;
 
+import dev.memorydealer.modularpluginsystem.ModularPluginSystem;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.reflections.Reflections;
-import dev.memorydealer.core.module.Module;
+import dev.memorydealer.modularpluginsystem.core.module.Module;
 
 import java.util.*;
 import java.util.function.Supplier;
@@ -23,7 +24,7 @@ public class LazyModuleLoader {
     }
 
     private void discoverModules() {
-        Reflections reflections = new Reflections("dev.memorydealer.modules");
+        Reflections reflections = new Reflections(ModularPluginSystem.class.getPackage().getName());
         Set<Class<? extends Module>> classes = reflections.getSubTypesOf(Module.class);
 
         for (Class<? extends Module> clazz : classes) {

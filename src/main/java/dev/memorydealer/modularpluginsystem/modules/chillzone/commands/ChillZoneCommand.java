@@ -1,4 +1,4 @@
-package dev.memorydealer.modules.chillzone.commands;
+package dev.memorydealer.modularpluginsystem.modules.chillzone.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

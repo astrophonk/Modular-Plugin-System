@@ -1,20 +1,17 @@
-package dev.memorydealer;
+package dev.memorydealer.modularpluginsystem;
 
-import dev.memorydealer.core.GUI.ModuleMenu;
-import dev.memorydealer.core.LazyModuleLoader;
-import dev.memorydealer.core.ModuleConfig;
-import dev.memorydealer.core.commands.ModuleMenuCommand;
-import dev.memorydealer.core.managers.DynamicCommandManager;
-import dev.memorydealer.modules.chillzone.ChillZoneModule;
-import dev.memorydealer.modules.endportal.EndPortalModule;
-import dev.memorydealer.modules.netherportal.NetherPortalModule;
+import dev.memorydealer.modularpluginsystem.core.GUI.ModuleMenu;
+import dev.memorydealer.modularpluginsystem.core.LazyModuleLoader;
+import dev.memorydealer.modularpluginsystem.core.ModuleConfig;
+import dev.memorydealer.modularpluginsystem.core.commands.ModuleMenuCommand;
+import dev.memorydealer.modularpluginsystem.core.managers.DynamicCommandManager;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.plugin.java.JavaPlugin;
-import dev.memorydealer.core.module.Module;
+import dev.memorydealer.modularpluginsystem.core.module.Module;
 
 import java.util.ArrayList;
 import java.util.List;

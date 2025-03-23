@@ -1,7 +1,7 @@
-package dev.memorydealer.modules.endportal;
+package dev.memorydealer.modularpluginsystem.modules.endportal;
 
-import dev.memorydealer.core.module.Module;
-import dev.memorydealer.modules.endportal.listeners.PreventEndPortalActivationListener;
+import dev.memorydealer.modularpluginsystem.core.module.Module;
+import dev.memorydealer.modularpluginsystem.modules.endportal.listeners.PreventEndPortalActivationListener;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
 import org.bukkit.plugin.java.JavaPlugin;

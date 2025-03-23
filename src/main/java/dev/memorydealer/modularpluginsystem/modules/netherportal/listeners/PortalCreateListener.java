@@ -1,4 +1,4 @@
-package dev.memorydealer.modules.netherportal.listeners;
+package dev.memorydealer.modularpluginsystem.modules.netherportal.listeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

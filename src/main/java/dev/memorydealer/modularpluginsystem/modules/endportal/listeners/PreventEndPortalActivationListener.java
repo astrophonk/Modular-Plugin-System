@@ -1,4 +1,4 @@
-package dev.memorydealer.modules.endportal.listeners;
+package dev.memorydealer.modularpluginsystem.modules.endportal.listeners;
 
 import org.bukkit.Material;
 import org.bukkit.block.BlockFace;

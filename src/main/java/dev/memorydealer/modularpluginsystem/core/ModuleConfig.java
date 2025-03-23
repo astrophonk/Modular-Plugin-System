@@ -1,4 +1,4 @@
-package dev.memorydealer.core;
+package dev.memorydealer.modularpluginsystem.core;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

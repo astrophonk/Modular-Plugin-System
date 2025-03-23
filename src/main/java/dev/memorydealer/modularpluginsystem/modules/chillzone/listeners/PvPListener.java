@@ -1,4 +1,4 @@
-package dev.memorydealer.modules.chillzone.listeners;
+package dev.memorydealer.modularpluginsystem.modules.chillzone.listeners;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

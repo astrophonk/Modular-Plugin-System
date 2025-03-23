@@ -1,13 +1,12 @@
-package dev.memorydealer.modules.chillzone;
+package dev.memorydealer.modularpluginsystem.modules.chillzone;
 
-import dev.memorydealer.core.module.Module;
-import dev.memorydealer.modules.chillzone.commands.ChillZoneCommand;
-import dev.memorydealer.modules.chillzone.listeners.PvPListener;
+import dev.memorydealer.modularpluginsystem.core.module.Module;
+import dev.memorydealer.modularpluginsystem.modules.chillzone.commands.ChillZoneCommand;
+import dev.memorydealer.modularpluginsystem.modules.chillzone.listeners.PvPListener;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.event.HandlerList;
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.time.LocalDateTime;

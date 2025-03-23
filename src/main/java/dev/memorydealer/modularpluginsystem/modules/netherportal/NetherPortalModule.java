@@ -1,7 +1,7 @@
-package dev.memorydealer.modules.netherportal;
+package dev.memorydealer.modularpluginsystem.modules.netherportal;
 
-import dev.memorydealer.core.module.Module;
-import dev.memorydealer.modules.netherportal.listeners.PortalCreateListener;
+import dev.memorydealer.modularpluginsystem.core.module.Module;
+import dev.memorydealer.modularpluginsystem.modules.netherportal.listeners.PortalCreateListener;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
 import org.bukkit.plugin.java.JavaPlugin;

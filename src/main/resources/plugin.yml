@@ -1,6 +1,6 @@
 name: ModularPluginSystem
 version: '1.0'
-main: dev.memorydealer.ModularPluginSystem
+main: dev.memorydealer.modularpluginsystem.ModularPluginSystem
 api-version: '1.21'
 author: MemoryDealer
 commands:

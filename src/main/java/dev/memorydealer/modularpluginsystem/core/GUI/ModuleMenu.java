@@ -1,9 +1,9 @@
-package dev.memorydealer.core.GUI;
+package dev.memorydealer.modularpluginsystem.core.GUI;
 
 
-import dev.memorydealer.ModularPluginSystem;
-import dev.memorydealer.core.ModuleConfig;
-import dev.memorydealer.core.module.Module;
+import dev.memorydealer.modularpluginsystem.ModularPluginSystem;
+import dev.memorydealer.modularpluginsystem.core.ModuleConfig;
+import dev.memorydealer.modularpluginsystem.core.module.Module;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

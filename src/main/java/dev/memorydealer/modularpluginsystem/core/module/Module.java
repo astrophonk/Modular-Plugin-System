@@ -1,4 +1,4 @@
-package dev.memorydealer.core.module;
+package dev.memorydealer.modularpluginsystem.core.module;
 
 import org.bukkit.command.CommandExecutor;
 
