@@ -152,6 +152,8 @@ Example configuration:
 
 ![image](https://github.com/user-attachments/assets/7fd94b0b-ab04-4e97-b134-c8f3896a7911)
 
+![image](https://github.com/user-attachments/assets/057ee431-a1b6-42af-91fa-8eb866fb428b)
+
 
 ---
 
