@@ -4,17 +4,17 @@ import dev.memorydealer.core.module.Module;
 import dev.memorydealer.modules.netherportal.listeners.PortalCreateListener;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
-import org.bukkit.plugin.Plugin;
+import org.bukkit.plugin.java.JavaPlugin;
 
 import java.time.LocalDateTime;
 
 public class NetherPortalModule implements Module {
 
     private boolean enabled = false;
-    private final Plugin plugin;
+    private final JavaPlugin plugin;
     private PortalCreateListener portalCreateListener;
 
-    public NetherPortalModule(Plugin plugin, boolean enabled) {
+    public NetherPortalModule(JavaPlugin plugin, boolean enabled) {
 
         this.plugin = plugin;
         this.enabled = enabled;

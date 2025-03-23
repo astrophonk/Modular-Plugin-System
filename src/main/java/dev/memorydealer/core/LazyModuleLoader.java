@@ -1,6 +1,5 @@
 package dev.memorydealer.core;
 
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.reflections.Reflections;
 import dev.memorydealer.core.module.Module;
@@ -12,12 +11,12 @@ import static org.bukkit.Bukkit.getLogger;
 
 public class LazyModuleLoader {
 
-    private final Plugin plugin;
+    private final JavaPlugin plugin;
     private final ModuleConfig moduleConfig;
     private final Map<String, Supplier<Module>> moduleSuppliers = new HashMap<>();
     private final Map<String, Module> loadedModules = new HashMap<>();
 
-    public LazyModuleLoader(Plugin plugin, ModuleConfig moduleConfig) {
+    public LazyModuleLoader(JavaPlugin plugin, ModuleConfig moduleConfig) {
         this.plugin = plugin;
         this.moduleConfig = moduleConfig;
         discoverModules();
@@ -36,7 +35,7 @@ public class LazyModuleLoader {
         try {
             boolean enabled = moduleConfig.isEnabled(clazz.getSimpleName(), true);
             getLogger().info("Loaded instantiate module: " + clazz.getSimpleName());
-            return clazz.getConstructor(Plugin.class, boolean.class).newInstance(plugin, enabled);
+            return clazz.getConstructor(JavaPlugin.class, boolean.class).newInstance(plugin, enabled);
         } catch (Exception e) {
             throw new RuntimeException("Failed to instantiate module: " + clazz.getSimpleName(), e);
         }

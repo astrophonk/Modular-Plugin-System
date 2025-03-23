@@ -8,6 +8,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.event.HandlerList;
 import org.bukkit.plugin.Plugin;
+import org.bukkit.plugin.java.JavaPlugin;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -16,13 +17,13 @@ import java.util.Map;
 
 public class ChillZoneModule implements Module {
 
-    private final Plugin plugin;
+    private final JavaPlugin plugin;
     private boolean enabled = false;
     private PvPListener pvpListener;
     private LocalDateTime chillEndDate;
     private int taskId;
 
-    public ChillZoneModule(Plugin plugin, boolean enabled) {
+    public ChillZoneModule(JavaPlugin plugin, boolean enabled) {
         this.plugin = plugin;
         this.enabled = enabled;
     }

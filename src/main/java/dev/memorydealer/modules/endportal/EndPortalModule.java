@@ -4,17 +4,17 @@ import dev.memorydealer.core.module.Module;
 import dev.memorydealer.modules.endportal.listeners.PreventEndPortalActivationListener;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
-import org.bukkit.plugin.Plugin;
+import org.bukkit.plugin.java.JavaPlugin;
 
 import java.time.LocalDateTime;
 
 public class EndPortalModule implements Module {
 
-    private final Plugin plugin;
+    private final JavaPlugin plugin;
     private boolean enabled = false;
     private PreventEndPortalActivationListener preventEndPortalActivationListener;
 
-    public EndPortalModule(Plugin plugin, boolean enabled) {
+    public EndPortalModule(JavaPlugin plugin, boolean enabled) {
 
         this.plugin = plugin;
         this.enabled = enabled;
