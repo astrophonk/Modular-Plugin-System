@@ -146,6 +146,15 @@ Example configuration:
 
 ---
 
+## 🖼️ Screenshots
+
+![image](https://github.com/user-attachments/assets/dba3edb7-7d37-49aa-9646-02d14d48735c)
+
+![image](https://github.com/user-attachments/assets/7fd94b0b-ab04-4e97-b134-c8f3896a7911)
+
+
+---
+
 ## 📜 License
 
 This project is open-source. See `LICENSE` for more details.
