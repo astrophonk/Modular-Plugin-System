@@ -35,7 +35,7 @@ public class LazyModuleLoader {
     private Module instantiate(Class<? extends Module> clazz) {
         try {
             boolean enabled = moduleConfig.isEnabled(clazz.getSimpleName(), true);
-            getLogger().info("Loaded instantiate module: " + clazz.getSimpleName());
+            getLogger().info("Loaded instantiate module: " + clazz.getSimpleName() + "enabled: " +enabled);
             return clazz.getConstructor(JavaPlugin.class, boolean.class).newInstance(plugin, enabled);
         } catch (Exception e) {
             throw new RuntimeException("Failed to instantiate module: " + clazz.getSimpleName(), e);

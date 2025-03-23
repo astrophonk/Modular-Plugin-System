@@ -29,6 +29,7 @@ public class ChillZoneModule implements Module {
 
     public void start() {
         if (!enabled) return;
+        plugin.getLogger().info("ChillZoneModule started");
         LocalDateTime baseline = LocalDateTime.of(2025, 3, 28, 0, 0);
         chillEndDate = baseline.plusDays(3);
 

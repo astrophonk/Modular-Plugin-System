@@ -69,9 +69,9 @@ public final class ModularPluginSystem extends JavaPlugin {
                             module.setEnabled(false);
                         }
 
-                        moduleConfig.setEnabled(module.getName(), newState);
+                        moduleConfig.setEnabled(module.getClass().getSimpleName(), newState);
 
-                        player.sendMessage("§aModule §e" + module.getName() + " §aset to " +
+                        player.sendMessage("§aModule §e" + module.getClass().getSimpleName() + " §aset to " +
                                 (module.isEnabled() ? "§aEnabled" : "§cDisabled"));
 
                         new ModuleMenu(modules, moduleConfig).open(player);
