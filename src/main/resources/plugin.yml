@@ -1,5 +1,5 @@
-name: TheMalteseNetrworkSMP
-version: '1.0-SNAPSHOT'
+name: ModularPluginSystem
+version: '1.0'
 main: dev.memorydealer.ModularPluginSystem
 api-version: '1.21'
 author: MemoryDealer
