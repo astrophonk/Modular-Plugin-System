@@ -1,4 +1,9 @@
 
+
+![ChatGPT Image Mar 29, 2025, 12_38_25 AM](https://github.com/user-attachments/assets/d2e8cbf0-5bf6-40e6-b3b8-67137ad1680e)
+
+
+
 # Modular Plugin System
 
 A versatile and dynamic plugin framework designed for Minecraft (Paper/Spigot) servers. Created by MemoryDLR, this system allows server administrators and developers to easily manage custom modules, enabling or disabling them at runtime through an intuitive in-game GUI.
