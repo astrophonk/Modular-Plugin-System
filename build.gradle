@@ -15,10 +15,12 @@ repositories {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/groups/public/"
     }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly 'com.github.NEZNAMY:TAB-API:5.2.0'
     implementation 'org.reflections:reflections:0.10.2'
 }
 
