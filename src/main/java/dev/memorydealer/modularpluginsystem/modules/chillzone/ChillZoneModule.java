@@ -1,7 +1,8 @@
 package dev.memorydealer.modularpluginsystem.modules.chillzone;
 
 import dev.memorydealer.modularpluginsystem.core.module.Module;
-import dev.memorydealer.modularpluginsystem.modules.chillzone.commands.ChillZoneCommand;
+import dev.memorydealer.modularpluginsystem.modules.chillzone.commands.DiscordCommand;
+import dev.memorydealer.modularpluginsystem.modules.chillzone.commands.SMPRulesCommand;
 import dev.memorydealer.modularpluginsystem.modules.chillzone.listeners.PvPListener;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -76,7 +77,8 @@ public class ChillZoneModule implements Module {
     @Override
     public Map<String, CommandExecutor> getCommands() {
         Map<String, CommandExecutor> commands = new HashMap<>();
-        commands.put("chillzone", new ChillZoneCommand());
+        commands.put("discord", new DiscordCommand());
+        commands.put("rules", new SMPRulesCommand());
         return commands;
     }
 }
