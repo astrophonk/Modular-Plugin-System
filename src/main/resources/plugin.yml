@@ -3,6 +3,7 @@ version: '1.0'
 main: dev.memorydealer.modularpluginsystem.ModularPluginSystem
 api-version: '1.21'
 author: MemoryDealer
+depend: [Citizens]
 commands:
   modules:
     description: Open the Module Management GUI
