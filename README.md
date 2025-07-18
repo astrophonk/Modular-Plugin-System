@@ -6,7 +6,7 @@
 
 # Modular Plugin System
 
-A versatile and dynamic plugin framework designed for Minecraft (Paper/Spigot) servers. Created by MemoryDLR, this system allows server administrators and developers to easily manage custom modules, enabling or disabling them at runtime through an intuitive in-game GUI.
+A versatile and dynamic plugin framework designed for Minecraft (Paper/Spigot) servers. Created by AstroPhonk, this system allows server administrators and developers to easily manage custom modules, enabling or disabling them at runtime through an intuitive in-game GUI.
 
 ---
 
