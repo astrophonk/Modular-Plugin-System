@@ -22,6 +22,6 @@ SOFTWARE.
 
 🔒 Core Package Notice
 
-The contents of the core package in this project are protected. Only Hristo Petrov (MemoryDLR) or individuals explicitly authorized by him are permitted to modify any files within the core package.
+The contents of the core package in this project are protected. Only Hristo Petrov (AstroGotNULL) or individuals explicitly authorized by him are permitted to modify any files within the core package.
 
 Any unauthorized changes, distribution, or tampering with this part of the system are strictly prohibited and may result in legal action under applicable law.
